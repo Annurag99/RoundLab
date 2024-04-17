@@ -4,9 +4,9 @@ By using Amazon Web Services (AWS) cloud computing resources, my project aims to
 
 # Instructions for installation
 
-`git clone https://github.com/Annurag99/CPP-Cosmetic-Retail.git`
+`git clone https://github.com/Annurag99/MamaEarth.git`
 
-`cd CPP-Cosmetic-Retail`
+`cd MamaEarth`
 
 `pip install virtualenv`
 
