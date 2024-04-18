@@ -4,9 +4,13 @@ By using Amazon Web Services (AWS) cloud computing resources, my project aims to
 
 # Instructions for installation
 
-`git clone https://github.com/Annurag99/RoundLab.git`
+```python
+git clone https://github.com/Annurag99/RoundLab.git
+```
 
-`cd RoundLab`
+```python
+cd RoundLab
+```
 
 ```python
 virtualenv env
