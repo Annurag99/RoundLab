@@ -10,7 +10,7 @@ By using Amazon Web Services (AWS) cloud computing resources, my project aims to
 
 `pip install virtualenv`
 
-`virtualenv env` or `python -m venv env`
+`virtualenv env` or `python3 -m venv env`
 
 # Mac/Linux
 
