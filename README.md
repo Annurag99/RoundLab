@@ -1,11 +1,10 @@
-# <img width="227" alt="Screenshot 2024-04-18 at 1 17 56 PM" src="https://github.com/Annurag99/RoundLab/assets/157478528/9b54e12f-4958-4efa-897d-e22518090a59">
-: Unveiling a New Era in Beauty Retail
+# <img width="227" alt="Screenshot 2024-04-18 at 1 17 56 PM" src="https://github.com/Annurag99/RoundLab/assets/157478528/9b54e12f-4958-4efa-897d-e22518090a59"> : Unveiling a New Era in Beauty Retail
 
 By using Amazon Web Services (AWS) cloud computing resources, my project aims to build a robust cosmetics e-commerce website.
 
 # Instructions for installation
 
-`git clone https://github.com/Annurag99/MamaEarth.git`
+`git clone https://github.com/Annurag99/RoundLab.git`
 
 `cd RoundLab`
 
