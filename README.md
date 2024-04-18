@@ -1,4 +1,5 @@
-# MamaEarth: Unveiling a New Era in Beauty Retail
+# <img width="227" alt="Screenshot 2024-04-18 at 1 17 56 PM" src="https://github.com/Annurag99/RoundLab/assets/157478528/9b54e12f-4958-4efa-897d-e22518090a59">
+: Unveiling a New Era in Beauty Retail
 
 By using Amazon Web Services (AWS) cloud computing resources, my project aims to build a robust cosmetics e-commerce website.
 
@@ -6,49 +7,55 @@ By using Amazon Web Services (AWS) cloud computing resources, my project aims to
 
 `git clone https://github.com/Annurag99/MamaEarth.git`
 
-`cd MamaEarth`
+`cd RoundLab`
 
-`pip install virtualenv`
-
-`virtualenv env` or `python3 -m venv env`
+```python
+virtualenv env
+```
+or
+```python
+python3 -m venv env
+```
 
 # Mac/Linux
 
-`source env/bin/activate`
-
-'New Version will throw an error due to version conflicts'
+```python
+source env/bin/activate
+```
 
 ```python
-
-pip install Django==2.2.4
-python3 -m pip install django-allauth==0.40.0
-pip install django-crispy-forms==1.7.2
-pip install django-countries==5.5
-pip install stripe==2.37.1
-pip install Pillow
-
+pip install -r requirements.txt
 ```
-`python3 manage.py makemigrations`
 
-if throws error update Pip and Setuptools
+```python
+python3 manage.py makemigrations
+```
 
-`pip install --upgrade pip setuptools`
+If the above command throws an error update Pip and Setuptools
+```python
+pip install --upgrade pip setuptools
+```
 
-`python3 manage.py migrate`
+```python
+python3 manage.py migrate
+```
 
-`python3 manage.py runserver 8080`
+```python
+python3 manage.py runserver 8080
+```
 
 To resolve the Invalid HTTP_HOST header error. You may need to add a host header 
 example - 'd003a56484c942d88af2e1fc366a3f01.vfs.cloud9.eu-west-1.amazonaws.com'
-to ALLOWED_HOSTS inside the demo folder in the settings.py file.
+to ALLOWED_HOSTS and CSRP_TRUSTED_ORIGINS inside the demo folder in the settings.py file.
 
 # Admin Login
 
 ```python
 python3 manage.py createsuperuser
-Username: add
-Password: add
+Username: roundLabAdmin
+Password: Admin@123
 ```
+
 # Demo & Static Pages
 
 # Deploy URL
