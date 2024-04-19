@@ -55,7 +55,7 @@ to ALLOWED_HOSTS and CSRP_TRUSTED_ORIGINS inside the demo folder in the settings
 
 ```python
 python3 manage.py createsuperuser
-Username: roundLabAdmin
+Username: anuragsingh
 Password: Admin@123
 ```
 
@@ -63,7 +63,6 @@ Password: Admin@123
 
 # Deploy URL
 
-# Youtube demo
 
 
 
