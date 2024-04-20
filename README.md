@@ -2,6 +2,14 @@
 
 By using Amazon Web Services (AWS) cloud computing resources, my project aims to build a robust cosmetics e-commerce website.
 
+# Tech Stack
+```python
+Django==3.0.5
+django-widget-tweaks==1.4.8
+sqlparse==0.3.1
+xhtml2pdf
+```
+
 # Instructions for installation
 
 ```python
