@@ -263,20 +263,18 @@ body {
 <body>
 <div id="navbar">
     <div class="container">
-        <div class="row row1">
-            <ul class="largenav pull-right">
 
-                <li class="upper-links"><a class="links" href="/my-order">Track Orders</a></li>
-                <li class="upper-links"><a class="links" href="/my-profile">Profile</a></li>
-                <li class="upper-links"><a class="links" href="/logout">Logout</a></li>
-                
-            </ul>
-        </div>
         <div class="row row2">
-            <div class="col-sm-3">
-                <h2 style="margin:0px;"><a style="text-decoration:none; color:white;" href="/"><span class="largenav"><img src="../../static/images/homeicon.png" alt="RoundLab"/> </span></a></h2>
+            <div>
+                <h2 style="margin:0px;"><a style="text-decoration:none; color:white;" href="/"><span class="largenav">RoundLab </span></a></h2>
             </div>
-
+            <ul class="largenav pull-right">
+            
+              <li class="upper-links"><a class="links" href="/my-order">Track Orders</a></li>
+              <li class="upper-links"><a class="links" href="/my-profile">Profile</a></li>
+              <li class="upper-links"><a class="links" href="/logout">Logout</a></li>
+            
+            </ul>
             <div class="navbar-search smallsearch col-sm-7 col-xs-11">
               <form  action="/search" method="get">
                 <div class="row"> <input class="navbar-input col-xs-11" type="search" placeholder="Search for Products, Brands and more" name="query" id="query">
