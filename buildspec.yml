@@ -11,6 +11,6 @@ phases:
       - python --version
       - pylint $CODEBUILD_SRC_DIR/*.py
       - pylint $CODEBUILD_SRC_DIR/ecommerce/*.py
-artifacts:
-  files:
-    - "**/*"
+    artifacts:
+      files:
+        - "**/*"
