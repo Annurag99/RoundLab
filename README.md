@@ -70,7 +70,7 @@ Password: Admin@123
 # Demo & Static Pages
 
 # Deploy URL
-
+http://x23180013-cpp-project-env.eba-vbitjavb.eu-north-1.elasticbeanstalk.com/
 
 
 
