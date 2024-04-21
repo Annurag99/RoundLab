@@ -23,7 +23,7 @@ cd RoundLab
 ```python
 virtualenv env
 ```
-or
+OR
 ```python
 python3 -m venv env
 ```
