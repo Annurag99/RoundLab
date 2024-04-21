@@ -9,7 +9,6 @@ django-widget-tweaks==1.4.8
 sqlparse==0.3.1
 xhtml2pdf
 ```
-
 # Instructions for installation
 
 ```python
