@@ -199,8 +199,6 @@ def view_feedback_view(request):
     feedbacks=models.Feedback.objects.all().order_by('-id')
     return render(request,'ecom/view_feedback.html',{'feedbacks':feedbacks})
 
-
-
 #---------------------------------------------------------------------------------
 #------------------------ PUBLIC CUSTOMER RELATED VIEWS START ---------------------
 #---------------------------------------------------------------------------------
@@ -433,9 +431,6 @@ def payment_success_view(request):
     response.delete_cookie('address')
     return response
 
-
-
-
 @login_required(login_url='customerlogin')
 @user_passes_test(is_customer)
 def my_order_view(request):
@@ -448,10 +443,6 @@ def my_order_view(request):
         ordered_products.append(ordered_product)
 
     return render(request,'ecom/my_order.html',{'data':zip(ordered_products,orders)})
- 
-
-
-
 # @login_required(login_url='customerlogin')
 # @user_passes_test(is_customer)
 # def my_order_view2(request):
