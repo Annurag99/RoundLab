@@ -1,18 +1,16 @@
-from setuptools import setup, find_packages
-
-setup(
-    name='search_view-pkg',
-    version='0.1',
-    packages=find_packages(),
-    license='MIT',
-    description='A package to search products in the RoundLab APP',
-    author='Anurag Singh',
-    author_email='x23180013@student.ncirl.ie',
-    url='https://github.com/Annurag99/RoundLab',
-    keywords=['carpet', 'ventilation', 'house'],
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-    ],
+import setuptools
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+setuptools.setup(
+    name="search_view-pkg-Anurag09",
+    # Replace with your own username above
+    version="0.0.1",
+    author="Anurag Singh",
+    author_email="",
+    description="A package to search products in the RoundLab APP",
+    long_description= "A package to search products in the RoundLab APP",
+    long_description_content_type="text/markdown",
+    url="https://github.com/Annurag99/RoundLab",
+    packages=setuptools.find_packages(),
+    install_requires=[''],
 )
